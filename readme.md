@@ -1,0 +1,2 @@
+This is a project for the Odin Project's Project: Weather App which can be found here: https://www.theodinproject.com/courses/javascript/lessons/weather-app. The main goal of this project was to get used to using APIs. As of now there is very minimum styling on this project.
+Completed: 12/14/2020
