@@ -8,7 +8,7 @@ function KtoF(data) {
 async function getWeather() {
     document.getElementById("error").innerHTML = "";
     const city = document.getElementById("input-city").value
-    const response = await fetch(`http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=556df7718a4c2100db8f426da809ea24`,
+    const response = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=556df7718a4c2100db8f426da809ea24`,
      {mode: 'cors'});
      const weatherData = await response.json();
      const description = weatherData.weather[0].description;
